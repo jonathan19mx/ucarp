@@ -1,6 +1,6 @@
 #!/bin/sh 
 # Load variables from rc.conf 
-./etc/rc.subr 
+. /etc/rc.subr 
 load_rc_config ucarp 
 echo "Refusing to do go back online to avoid a split-brain situation." 
 echo "" 
